@@ -1,0 +1,39 @@
+.date-range-picker {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.day {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.day.weekend {
+    background-color: #f8d7da;
+}
+
+.day.selected {
+    background-color: #cce5ff;
+}
+
+.predefined-ranges {
+    margin-top: 10px;
+}
+
+.predefined-ranges button {
+    margin-right: 5px;
+}
